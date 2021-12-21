@@ -9,5 +9,7 @@ def get_dirfiles(dir):
 
     return list_files
 
+find_files = 'dict.xlsx'
 dir = os.walk('C:/Users/User/OneDrive/Desktop/oop/test/')
-print(get_dirfiles(dir))
+
+print(list(filter(lambda x: find_files == x, get_dirfiles(dir))))

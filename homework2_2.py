@@ -7,6 +7,7 @@
 # ID - 1 Full name - John Dow Birth Date - 21.04.1996 Profession - Python developer
 
 # from datetime import date
+
 #
 # class Contact:
 #     def __init__(self, id, first_name, last_name, birth_date, profession):
